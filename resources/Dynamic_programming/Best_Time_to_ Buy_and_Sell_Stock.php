@@ -53,6 +53,8 @@ function best_sol($arr = null) {
 }
 ?>
 <?php require_once $doc_public . '/inc/head.php'; ?>
+<h1>Best Time to  Buy and Sell Stock</h1>
+<h4>Diffculty: Easy</h4>
 <p>Say you have an array for which the ith element is the price of a given stock on day i.<br>
     If you were only permitted to complete at most one transaction (i.e., buy one and sell 
     one share of the stock), design an algorithm to find the maximum profit.<br>

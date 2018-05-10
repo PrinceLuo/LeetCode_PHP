@@ -35,12 +35,15 @@ require_once $doc_public.'/inc/head.php';
 <a href="./resources/String/Jewels_and_Stones.php">11. Jewels and Stones</a><br />
 
 </p>
-</div>br /><hr>
+</div><br /><hr>
 <br /><div id="Dynamic Programming">
 <h3>Dynamic Programming</h3>
 <p>
 <a href="./resources/Dynamic_programming/Min_Cost_Climbing_Stairs.php">1. Min Cost Climbing Stairs</a><br />
-<a href="./resources/Dynamic_programming/Best_Time_to_ Buy_and_Sell_Stock.php">2. Best Time to Buy and Sell Stock</a><br />
+<a href="./resources/Dynamic_programming/Best_Time_to_Buy_and_Sell_Stock.php">2. Best Time to Buy and Sell Stock</a><br />
+<a href="./resources/Dynamic_programming/Climbing_Stairs.php">3. Climbing Stairs</a><br />
+<a href="./resources/Dynamic_programming/House_Robber.php">4. House Robber</a><br />
+<a href="./resources/Dynamic_programming/Maximum_Subarray.php">5. Maximum Subarray</a><br />
 
 
 </p>

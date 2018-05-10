@@ -53,6 +53,8 @@ if(count($arr)>1){
 //$score0<$score1?print_r($score0): print_r($score1);
 ?>
 <?php require_once $doc_public.'/inc/head.php'; ?>
+<h1>Min Cost Climbing Stairs</h1>
+<h4>Diffculty: Easy</h4>
 <p>Q:  On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).<br>
     Once you pay the cost, you can either climb one or two steps. You need to find
     minimum cost to reach the top of the floor, and you can either start from the
@@ -83,5 +85,5 @@ if(count($arr)>1){
             }
             
             ?>
-        <p>TimeComplexity: n + m + intersection(n, m)</p>
+        <p>TimeComplexity: 2n </p>
 <?php require_once $doc_public.'/inc/footer.php'; ?>
