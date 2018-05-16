@@ -47,5 +47,12 @@ require_once $doc_public.'/inc/head.php';
 
 
 </p>
+</div><br /><hr>
+<br /><div id="Math">
+<h3>Math</h3>
+<p>
+<a href="./resources/Math/Self_Dividing_Numbers.php">1. Self Dividing Numbers</a><br />
+
+</p>
 </div>
 <?php require_once $doc_public.'/inc/footer.php'; ?>
