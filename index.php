@@ -1,6 +1,6 @@
 <?php
-$doc_public = $_SERVER['DOCUMENT_ROOT'].'/public';
-require_once $doc_public.'/inc/head.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/config.php';
+require_once(__PUBLIC__.'/inc/head.php');
 ?>
 <h1>Self-prac LeetCode</h1><br />
 <br /><div id="Array">
@@ -17,6 +17,7 @@ require_once $doc_public.'/inc/head.php';
 <a href="./resources/Array/Insert_Delete_GetRandom.php">9. Insert Delete GetRandom</a><br />
 <a href="./resources/Array/Move_Zeroes.php">10. Move Zeroes</a><br />
 <a href="./resources/Array/Shortest_Unsorted_Continuous_Subarray.php">11. Shortest Unsorted Continuous Subarray</a><br />
+<a href="./resources/Array/Reveal_Cards_In_Increasing_Order.php">12. Reveal Cards In Increasing Order</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
@@ -33,6 +34,9 @@ require_once $doc_public.'/inc/head.php';
 <a href="./resources/String/Ransom_Note.php">9. Ransom Note</a><br />
 <a href="./resources/String/Reverse_Vowels_of_a_String.php">10. Reverse Vowels of a String</a><br />
 <a href="./resources/String/Jewels_and_Stones.php">11. Jewels and Stones</a><br />
+<a href="./resources/String/To_Lower_Case.php">12. To Lower Case</a><br />
+<a href="./resources/String/Unique_Email_Addresses.php">13. Unique Email Addresses</a><br />
+<a href="./resources/String/Find_and_Replace_Pattern.php">14. Find and Replace Pattern</a><br />
 
 </p>
 </div><br /><hr>
@@ -44,6 +48,7 @@ require_once $doc_public.'/inc/head.php';
 <a href="./resources/Dynamic_programming/Climbing_Stairs.php">3. Climbing Stairs</a><br />
 <a href="./resources/Dynamic_programming/House_Robber.php">4. House Robber</a><br />
 <a href="./resources/Dynamic_programming/Maximum_Subarray.php">5. Maximum Subarray</a><br />
+<a href="./resources/Dynamic_programming/Counting_Bits.php">6. Counting Bits</a><br />
 
 
 </p>
@@ -51,8 +56,12 @@ require_once $doc_public.'/inc/head.php';
 <br /><div id="Math">
 <h3>Math</h3>
 <p>
-<a href="./resources/Math/Self_Dividing_Numbers.php">1. Self Dividing Numbers</a><br />
+<a href="/resources/Math/Self_Dividing_Numbers.php">1. Self Dividing Numbers</a><br />
+<a href="/resources/Math/Projection_Area_of_3D_Shapes.php">2. Projection Area of 3D Shapes</a><br />
+<a href="/resources/Math/Binary_Gap.php">3. Binary Gap</a><br />
+<a href="/resources/Math/DI_String_Match.php">4. DI String Match</a><br />
+<a href="/resources/Math/Smallest_Range_I.php">5. Smallest Range I</a><br />
 
 </p>
 </div>
-<?php require_once $doc_public.'/inc/footer.php'; ?>
+<?php require_once(__PUBLIC__.'/inc/footer.php'); ?>

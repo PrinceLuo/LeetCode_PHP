@@ -1,4 +1,3 @@
-<?php $doc_public = $_SERVER['DOCUMENT_ROOT'] . '/public'; ?>
 <?php
 $input = array(-2, 1, -3, 4, -1, 2, 1, -5, 4);
 $score = 0;
@@ -12,7 +11,7 @@ for ($i = 0; $i < count($input); $i++) {
 }
 $output = $max;
 ?>
-<?php require_once $doc_public . '/inc/head.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/public/inc/head.php'; ?>
 <p>Given an integer array nums, find the contiguous subarray
     (containing at least one number) which has the largest sum and return its sum.</p>
 <h3>Example:</h3><p>Input: [-2,1,-3,4,-1,2,1,-5,4]<br>
@@ -45,4 +44,4 @@ $output = $max;
     turn to negative. Also, keep recording the max of the <i>score</i>, so that we 
     could always have the maximum of the score.
 </p>
-<?php require_once $doc_public . '/inc/footer.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/public/inc/footer.php'; ?>

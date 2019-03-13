@@ -1,13 +1,20 @@
 <?php $doc_public = $_SERVER['DOCUMENT_ROOT'] . '/public'; ?>
 <?php
+/**
+ * score is the one that take record the maximan sum of the previous records.
+ * Inside the for loop, the pp_score represent the largest sum fo far, and is 
+ * going to compare with the "former" "new" sum; score keep updating if there 
+ * is a larger sum. As it is keep comparing the former record, it has to compare
+ * the last one before giving the last output.
+ */
 $input = array(1,4,5,3,44,9,5,50,2,8,11,7);
 // start from 0
-$prev = 0;
+$prev_score = 0;
 $score = 0;
 for($i = 0; $i<count($input); $i++){
-    $pp = $score;
-    $new_score = $pp + $input[$i];
-    $score = $pp<$prev?$prev:$pp;
+    $pp_scrore = $score;
+    $new_score = $pp_scrore + $input[$i];
+    $score = $pp_scrore<$prev?$prev:$pp_scrore;
     $prev = $new_score;
 }
 $output = $new_score>$score?$new_score:$score;

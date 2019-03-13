@@ -1,5 +1,5 @@
 <?php
-$doc_public = $_SERVER['DOCUMENT_ROOT'].'/public';
+//$doc_public = $_SERVER['DOCUMENT_ROOT'].'/public';
 
 $arr = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1];
 
@@ -52,7 +52,7 @@ if(count($arr)>1){
 //echo $score1."<br>";
 //$score0<$score1?print_r($score0): print_r($score1);
 ?>
-<?php require_once $doc_public.'/inc/head.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/public/inc/head.php'; ?>
 <h1>Min Cost Climbing Stairs</h1>
 <h4>Diffculty: Easy</h4>
 <p>Q:  On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).<br>
@@ -86,4 +86,4 @@ if(count($arr)>1){
             
             ?>
         <p>TimeComplexity: 2n </p>
-<?php require_once $doc_public.'/inc/footer.php'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/public/inc/footer.php'; ?>
