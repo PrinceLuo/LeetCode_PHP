@@ -18,6 +18,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Array/Move_Zeroes.php">10. Move Zeroes</a><br />
 <a href="./resources/Array/Shortest_Unsorted_Continuous_Subarray.php">11. Shortest Unsorted Continuous Subarray</a><br />
 <a href="./resources/Array/Reveal_Cards_In_Increasing_Order.php">12. Reveal Cards In Increasing Order</a><br />
+<a href="./resources/Array/Pancake_Sorting.php">13. Pancake Sorting</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
@@ -38,6 +39,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/String/Unique_Email_Addresses.php">13. Unique Email Addresses</a><br />
 <a href="./resources/String/Find_and_Replace_Pattern.php">14. Find and Replace Pattern</a><br />
 
+
 </p>
 </div><br /><hr>
 <br /><div id="Dynamic Programming">
@@ -49,6 +51,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Dynamic_programming/House_Robber.php">4. House Robber</a><br />
 <a href="./resources/Dynamic_programming/Maximum_Subarray.php">5. Maximum Subarray</a><br />
 <a href="./resources/Dynamic_programming/Counting_Bits.php">6. Counting Bits</a><br />
+<a href="./resources/Dynamic_programming/Minimum_Falling_Path_Sum.php">7. Minimum Falling Path Sum</a><br />
 
 
 </p>
@@ -61,6 +64,11 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="/resources/Math/Binary_Gap.php">3. Binary Gap</a><br />
 <a href="/resources/Math/DI_String_Match.php">4. DI String Match</a><br />
 <a href="/resources/Math/Smallest_Range_I.php">5. Smallest Range I</a><br />
+<a href="/resources/Math/Encode_and_Decode_TinyURL.php">6. Encode and Decode TinyURL(unfinished)</a><br />
+<a href="/resources/Math/Complement_of_Base_10_Integer.php">7. Complement of Base 10 Integer</a><br />
+<a href="/resources/Math/Largest_Perimeter_Triangle.php">8. Largest Perimeter Triangle</a><br />
+<a href="./resources/Math/Complex_Number_Multiplication.php">9. Complex Number Multiplication</a><br />
+<a href="./resources/Math/Spiral_Matrix_III.php">10. Spiral Matrix III(unfinished)</a><br />
 
 </p>
 </div>

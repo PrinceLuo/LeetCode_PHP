@@ -57,11 +57,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/public/inc/head.php';
     in any order you want.</p>
 <p>Initially, all the cards start face down (unrevealed) in one deck.</p>
 <p>Now, you do the following steps repeatedly, until all cards are revealed:
-<ul class="list_numeric">
+<ol class="list_numeric">
     <li>Take the top card of the deck, reveal it, and take it out of the deck.</li>
     <li>If there are still cards in the deck, put the next top card of the deck at the bottom of the deck.</li>
     <li>If there are still unrevealed cards, go back to step 1.  Otherwise, stop.</li>
-</ul>
+</ol>
 </p>
 <p>Return an ordering of the deck that would reveal the cards in <strong>increasing order.</strong></p>
 <p>The first entry in the answer is considered to be the top of the deck.</p>
