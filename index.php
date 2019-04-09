@@ -1,6 +1,8 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/config.php';
 require_once(__PUBLIC__.'/inc/head.php');
+var_dump($_POST);
+die;
 ?>
 <h1>Self-prac LeetCode</h1><br />
 <br /><div id="Array">
