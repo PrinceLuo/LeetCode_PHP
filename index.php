@@ -1,8 +1,6 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/config.php';
 require_once(__PUBLIC__.'/inc/head.php');
-var_dump($_POST);
-die;
 ?>
 <h1>Self-prac LeetCode</h1><br />
 <br /><div id="Array">
@@ -21,6 +19,7 @@ die;
 <a href="./resources/Array/Shortest_Unsorted_Continuous_Subarray.php">11. Shortest Unsorted Continuous Subarray</a><br />
 <a href="./resources/Array/Reveal_Cards_In_Increasing_Order.php">12. Reveal Cards In Increasing Order</a><br />
 <a href="./resources/Array/Pancake_Sorting.php">13. Pancake Sorting</a><br />
+<a href="./resources/Array/Squares_of_a_Sorted_Array.php">14. Squares of a Sorted Array</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
@@ -40,6 +39,7 @@ die;
 <a href="./resources/String/To_Lower_Case.php">12. To Lower Case</a><br />
 <a href="./resources/String/Unique_Email_Addresses.php">13. Unique Email Addresses</a><br />
 <a href="./resources/String/Find_and_Replace_Pattern.php">14. Find and Replace Pattern</a><br />
+<a href="./resources/String/Unique_Morse_Code_Words.php">15. Unique Morse Code Words</a><br />
 
 
 </p>
@@ -54,6 +54,7 @@ die;
 <a href="./resources/Dynamic_programming/Maximum_Subarray.php">5. Maximum Subarray</a><br />
 <a href="./resources/Dynamic_programming/Counting_Bits.php">6. Counting Bits</a><br />
 <a href="./resources/Dynamic_programming/Minimum_Falling_Path_Sum.php">7. Minimum Falling Path Sum</a><br />
+<a href="./resources/Dynamic_programming/Minimum_Cost_For_Tickets.php">7. Minimum Cost For Tickets(unfinished)</a><br />
 
 
 </p>
