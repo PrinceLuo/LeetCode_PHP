@@ -72,6 +72,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="/resources/Math/Largest_Perimeter_Triangle.php">8. Largest Perimeter Triangle</a><br />
 <a href="./resources/Math/Complex_Number_Multiplication.php">9. Complex Number Multiplication</a><br />
 <a href="./resources/Math/Spiral_Matrix_III.php">10. Spiral Matrix III(unfinished)</a><br />
+<a href="./resources/Math/Surface_Area_of_3D_Shapes.php">11. Surface Area of 3D Shapes</a><br />
 
 </p>
 </div>

@@ -60,8 +60,7 @@ There are 2 different transformations, "--...-." and "--...--.".
 </p>
 <hr>
 <h3>Hint: </h3>
-<p>Functions needed in PHP: array_key_exists($key, $array), strsplit($string, $split_length=1),
-substr($string, $start, $length=null)</p>
+<p>A good practice for reviewing substr()</p>
 <hr>
 <p>Here is what the code represent:</p>
 <h3>Input: Words = ["gin", "zen", "gig", "msg"]</h3>
