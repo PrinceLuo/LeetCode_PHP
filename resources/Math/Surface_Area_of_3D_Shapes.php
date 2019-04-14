@@ -33,7 +33,6 @@ function surfaceAreaOf3DShapes($arr){
             }
             
         }
-        echo $total_value;
     }
     $output = $total_value;
     return $output;
