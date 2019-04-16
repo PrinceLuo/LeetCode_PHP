@@ -20,6 +20,8 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Array/Reveal_Cards_In_Increasing_Order.php">12. Reveal Cards In Increasing Order</a><br />
 <a href="./resources/Array/Pancake_Sorting.php">13. Pancake Sorting</a><br />
 <a href="./resources/Array/Squares_of_a_Sorted_Array.php">14. Squares of a Sorted Array</a><br />
+<a href="./resources/Array/Sort_Array_By_Parity.php">15. Sort Array By Parity</a><br />
+<a href="./resources/Array/Flipping_an_Image.php">16. Flipping an Image</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
