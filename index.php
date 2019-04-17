@@ -23,6 +23,8 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Array/Sort_Array_By_Parity.php">15. Sort Array By Parity</a><br />
 <a href="./resources/Array/Flipping_an_Image.php">16. Flipping an Image</a><br />
 <a href="./resources/Array/Sort_Array_By_Parity_II.php">17. Sort Array By Parity II</a><br />
+<a href="./resources/Array/Fibonacci_Number.php">18. Fibonacci Number</a><br />
+<a href="./resources/Array/Find_Common_Characters.php">19. Find Common Characters(unfinished)</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
