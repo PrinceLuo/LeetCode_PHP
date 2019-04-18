@@ -45,6 +45,9 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/String/Unique_Email_Addresses.php">13. Unique Email Addresses</a><br />
 <a href="./resources/String/Find_and_Replace_Pattern.php">14. Find and Replace Pattern</a><br />
 <a href="./resources/String/Unique_Morse_Code_Words.php">15. Unique Morse Code Words</a><br />
+<a href="./resources/String/Robot_Return_to_Origin.php">16. Robot Return to Origin</a><br />
+<a href="./resources/String/Reverse_String.php">17. Reverse String</a><br />
+<a href="./resources/String/Longest_Substring_Without_Repeating_Characters.php">18. Longest Substring Without Repeating Characters</a><br />
 
 
 </p>
