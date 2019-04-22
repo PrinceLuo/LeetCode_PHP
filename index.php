@@ -62,7 +62,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Dynamic_programming/Maximum_Subarray.php">5. Maximum Subarray</a><br />
 <a href="./resources/Dynamic_programming/Counting_Bits.php">6. Counting Bits</a><br />
 <a href="./resources/Dynamic_programming/Minimum_Falling_Path_Sum.php">7. Minimum Falling Path Sum</a><br />
-<a href="./resources/Dynamic_programming/Minimum_Cost_For_Tickets.php">7. Minimum Cost For Tickets(unfinished)</a><br />
+<a href="./resources/Dynamic_programming/Minimum_Cost_For_Tickets.php">8. Minimum Cost For Tickets(unfinished)</a><br />
 
 
 </p>
@@ -81,6 +81,8 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Math/Complex_Number_Multiplication.php">9. Complex Number Multiplication</a><br />
 <a href="./resources/Math/Spiral_Matrix_III.php">10. Spiral Matrix III(unfinished)</a><br />
 <a href="./resources/Math/Surface_Area_of_3D_Shapes.php">11. Surface Area of 3D Shapes</a><br />
+<a href="./resources/Math/Two_Sum.php">12. Two Sum(Important)</a><br />
+<a href="./resources/Math/Add_Two_Numbers.php">13. Add Two Numbers</a><br />
 
 </p>
 </div>
