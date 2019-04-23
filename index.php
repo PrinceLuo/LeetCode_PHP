@@ -25,6 +25,8 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Array/Sort_Array_By_Parity_II.php">17. Sort Array By Parity II</a><br />
 <a href="./resources/Array/Fibonacci_Number.php">18. Fibonacci Number</a><br />
 <a href="./resources/Array/Find_Common_Characters.php">19. Find Common Characters(unfinished)</a><br />
+<a href="./resources/Array/Sum_of_Even_Numbers_After_Queries.php">20. Sum of Even Numbers After Queries</a><br />
+<a href="./resources/Array/Transpose_Matrix.php">21. Transpose Matrix(Skip)</a><br />
 </p>
 </div><br /><hr>
 <br /><div id="String">
@@ -48,6 +50,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/String/Robot_Return_to_Origin.php">16. Robot Return to Origin</a><br />
 <a href="./resources/String/Reverse_String.php">17. Reverse String</a><br />
 <a href="./resources/String/Longest_Substring_Without_Repeating_Characters.php">18. Longest Substring Without Repeating Characters</a><br />
+<a href="./resources/String/Longest_Palindromic_Substring.php">19. Longest Palindromic Substring(unfinished)</a><br />
 
 
 </p>
