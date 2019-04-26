@@ -51,6 +51,7 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/String/Reverse_String.php">17. Reverse String</a><br />
 <a href="./resources/String/Longest_Substring_Without_Repeating_Characters.php">18. Longest Substring Without Repeating Characters</a><br />
 <a href="./resources/String/Longest_Palindromic_Substring.php">19. Longest Palindromic Substring(unfinished)</a><br />
+<a href="./resources/String/Reorder_Log_Files.php">20. Reorder Log Files</a><br />
 
 
 </p>
@@ -86,6 +87,8 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="./resources/Math/Surface_Area_of_3D_Shapes.php">11. Surface Area of 3D Shapes</a><br />
 <a href="./resources/Math/Two_Sum.php">12. Two Sum(Important)</a><br />
 <a href="./resources/Math/Add_Two_Numbers.php">13. Add Two Numbers</a><br />
+<a href="./resources/Math/Divisor_Game.php">14. Divisor Game</a><br />
+<a href="./resources/Math/Add_Digits.php">15. Add Digits(unfinished)</a><br />
 
 </p>
 </div>
