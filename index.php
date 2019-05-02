@@ -83,12 +83,12 @@ require_once(__PUBLIC__.'/inc/head.php');
 <a href="/resources/Math/Complement_of_Base_10_Integer.php">7. Complement of Base 10 Integer</a><br />
 <a href="/resources/Math/Largest_Perimeter_Triangle.php">8. Largest Perimeter Triangle</a><br />
 <a href="./resources/Math/Complex_Number_Multiplication.php">9. Complex Number Multiplication</a><br />
-<a href="./resources/Math/Spiral_Matrix_III.php">10. Spiral Matrix III(unfinished)</a><br />
+<a href="./resources/Math/Spiral_Matrix_III.php">10. Spiral Matrix III</a><br />
 <a href="./resources/Math/Surface_Area_of_3D_Shapes.php">11. Surface Area of 3D Shapes</a><br />
 <a href="./resources/Math/Two_Sum.php">12. Two Sum(Important)</a><br />
 <a href="./resources/Math/Add_Two_Numbers.php">13. Add Two Numbers</a><br />
 <a href="./resources/Math/Divisor_Game.php">14. Divisor Game</a><br />
-<a href="./resources/Math/Add_Digits.php">15. Add Digits(unfinished)</a><br />
+<a href="./resources/Math/Add_Digits.php">15. Add Digits</a><br />
 
 </p>
 </div>

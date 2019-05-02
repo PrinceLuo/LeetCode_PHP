@@ -1,6 +1,62 @@
 <?php
-function spiralMatrix3($str1, $str2){
-    
+function spiralMatrix3($row,$column, $r0, $c0){
+    $outside = FALSE;
+    $direction = 'right';
+    $footprint = array();
+    $c_record = [];
+    $r_record = [];
+    //$footprint[] = [$r0,$c0];
+    //$c_record[$c0] = 1;
+    //$r_record[$r0] = 1;
+    $amount = $row*$column;
+    while(count($footprint)<$amount){
+        $c_record[$c0] = 1;
+        $r_record[$r0] = 1;
+        if(!$outside){
+            $footprint[] = [$r0,$c0];
+        }
+        switch ($direction){
+            case 'right':
+                $c0 += 1;
+                if(!array_key_exists($r0+1, $r_record)||!array_key_exists($c0, $c_record)){
+                    $direction = 'down';
+                    //echo "Going down...========>";
+                }
+                //echo '['.$r0.','.$c0.']'."<br>";
+                break;
+            case 'down':
+                $r0 += 1;
+                if(!array_key_exists($c0-1, $c_record)||!array_key_exists($r0, $r_record)){
+                    $direction = 'left';
+                    //echo "Going left...========>";
+                }
+                //echo '['.$r0.','.$c0.']'."<br>";
+                break;
+            case 'left':
+                $c0 -= 1;
+                if(!array_key_exists($r0-1, $r_record)||!array_key_exists($c0, $c_record)){
+                    $direction = 'up';
+                    //echo "Going up...========>";
+                }
+                //echo '['.$r0.','.$c0.']'."<br>";
+                break;
+            case 'up':
+                $r0 -= 1;
+                if(!array_key_exists($c0+1, $c_record)||!array_key_exists($r0, $r_record)){
+                    $direction = 'right';
+                    //echo "Going right...========>";
+                }
+                //echo '['.$r0.','.$c0.']'."<br>";
+                break;
+            default:
+        }
+        if($r0>=$row||$c0>=$column||$r0<0||$c0<0){
+            $outside = TRUE;
+        }else{
+            $outside = FALSE;
+        }
+    }
+    $output = $footprint;
     return $output;
 }
 ?>
@@ -37,19 +93,19 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/public/inc/head.php';
 
 <hr>
 <p>Here is what the code represent:</p>
-<h3>Input: "2+-1i", "6+-6i"</h3>
+<h3>Input: R = 5, C = 6, r0 = 1, c0 = 4</h3>
 
 <b>The answer: 
     <?php
-    $output = complexNumberMultiplication("2+-1i", "6+-6i");
-    if (isset($output) && !empty($output)) {
+    $output = spiralMatrix3(5,6,1,4);
+    if (isset($output) && count($output)>0) {
         print_r($output);
     } else {
         echo 'No output!';
     }
     ?>
 </b>
-<p>TimeComplexity: O(1)</p>
+<p>TimeComplexity: O(R*C)</p>
 <hr>
 <p>
     <b>Hints: </b><br>
